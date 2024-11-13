@@ -173,42 +173,82 @@ C 0  0 1 1 0</dataString>
     </visualElement>
     <visualElement>
       <elementName>REG-RST-CE.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S0</string>
+        </entry>
+      </elementAttributes>
       <pos x="780" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>REG-RST-CE.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S1</string>
+        </entry>
+      </elementAttributes>
       <pos x="640" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>REG-RST-CE.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S2</string>
+        </entry>
+      </elementAttributes>
       <pos x="500" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>REG-RST-CE.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S3</string>
+        </entry>
+      </elementAttributes>
       <pos x="360" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>REG-RST-CE.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S4</string>
+        </entry>
+      </elementAttributes>
       <pos x="220" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>REG-RST-CE.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S5</string>
+        </entry>
+      </elementAttributes>
       <pos x="80" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>REG-RST-CE.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S6</string>
+        </entry>
+      </elementAttributes>
       <pos x="-60" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>REG-RST-CE.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S7</string>
+        </entry>
+      </elementAttributes>
       <pos x="-200" y="240"/>
     </visualElement>
     <visualElement>
@@ -284,12 +324,12 @@ C 0  0 0 1 0</dataString>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>SELECT</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>SELECT</string>
         </entry>
       </elementAttributes>
       <pos x="-360" y="340"/>
