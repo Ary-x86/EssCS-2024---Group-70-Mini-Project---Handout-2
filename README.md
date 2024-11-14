@@ -59,7 +59,9 @@ To ensure this value would be held in the Bit-Overflow Register, we connected th
 <hr>
 
 **Analysis:**
+
 Analysis D-70-submission1_AUTOMATIC.dig:
+
 Gates: 9x REG, 5x XOR-Gate, 1x MUX, 1x AND-gate, 1x OR-gate, 1x NOT-gate, 1x Counter, 1x Comparator
 Control Signals: Chip-Enable, RESET
 
