@@ -29,10 +29,12 @@ The circuit uses Reset and Chip Enable control signals:
    Chip Enable: Allows idle cycles for the LSFR
 <hr>
 Analysis D-70-submission1.dig:
+
 Gates: 8x REG, 5x XOR-Gate, 1x MUX
+
 Control Signals: SELECT, Chip-Enable, RESET
 
-Clock Cycles:
+**Clock Cycles:**
 
 Experiment 1: 1 RESET Cycle for known value + 8 cycles for initialization + 14 cycles for output = 23 cycles
 
@@ -63,9 +65,10 @@ To ensure this value would be held in the Bit-Overflow Register, we connected th
 Analysis D-70-submission1_AUTOMATIC.dig:
 
 Gates: 9x REG, 5x XOR-Gate, 1x MUX, 1x AND-gate, 1x OR-gate, 1x NOT-gate, 1x Counter, 1x Comparator
+
 Control Signals: Chip-Enable, RESET
 
-Clock Cycles:
+**Clock Cycles:**
 
 Experiment 1: 1 RESET Cycle for known value + 8 cycles for initialization + 14 cycles for output = 23 cycles
 
