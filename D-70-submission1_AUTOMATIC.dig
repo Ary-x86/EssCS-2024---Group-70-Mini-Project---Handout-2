@@ -185,7 +185,12 @@
     </visualElement>
     <visualElement>
       <elementName>REG-RST-CE.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>BIT-OVF-REG</string>
+        </entry>
+      </elementAttributes>
       <pos x="-440" y="460"/>
     </visualElement>
     <visualElement>
