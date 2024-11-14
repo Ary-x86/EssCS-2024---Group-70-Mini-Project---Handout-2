@@ -46,6 +46,7 @@ Experiment 2: 1 RESET Cycle for known value + 8 cycles for initialization + 8 ou
 <hr>
 
 **Information about D-70-submission1_AUTOMATIC.dig**
+
 Our more complex circuit, named D-70-submission1_AUTOMATIC.dig, automates the process by generating the SELECT signal at the appropriate times. From a functional standpoint the design is identical to the manual circuit, but operates with fewer control signals.
 
 In our LSFR the initialization phase happens in 8 cycles consistently. So instead of controlling the RESET and SELECT control signals simultaneously with the SELECT signal for the right amount of bits, we figured it'd be more practical to automate this process, and only keep the RESET and Chip-Enable Signals.
