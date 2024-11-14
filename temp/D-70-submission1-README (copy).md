@@ -1,5 +1,4 @@
 # EssCS 2024 - Group 70 Mini Project - Handout 2
-**Information about D-70-submission1_AUTOMATIC.dig can be found down below**
 
 **Aryan Swami-Persaud (4490193)** | 
 **Mathios Berhe (8356280)**  | 
@@ -29,12 +28,10 @@ The circuit uses Reset and Chip Enable control signals:
    Chip Enable: Allows idle cycles for the LSFR
 <hr>
 Analysis D-70-submission1.dig:
-
 Gates: 8x REG, 5x XOR-Gate, 1x MUX
-
 Control Signals: SELECT, Chip-Enable, RESET
 
-**Clock Cycles:**
+Clock Cycles:
 
 Experiment 1: 1 RESET Cycle for known value + 8 cycles for initialization + 14 cycles for output = 23 cycles
 
