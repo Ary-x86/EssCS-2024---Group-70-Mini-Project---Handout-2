@@ -142,7 +142,7 @@
           <testData>
             <dataString>clk input RST sequence CE SELECT
 0 0  1 0 1 1
-C 0  1 0 1 1
+#C 0  1 0 1 1
 #RESET, now values are known, start init. values
 C 1  0 0 1 1 #SELECT = 1 for initial values
 C 0  0 0 1 1
@@ -277,7 +277,7 @@ C 0  0 1 1 0</dataString>
           <testData>
             <dataString>clk input RST sequence CE SELECT
 0 0  1 0 1 1
-C 0  1 0 1 1 
+#C 0  1 0 1 1 
 #RESET, now values are known, start init. values
 C 1  0 0 1 1
 C 0  0 0 1 1
@@ -301,7 +301,7 @@ C 0  0 0 0 0
 C 0  0 0 0 0
 C 0  0 0 0 0	#end idle cycles, reload
 C 0  1 0 1 0
-C 0  1 0 1 0
+#C 0  1 0 1 0
 #RESET, now values are known, start init. values
 C 1  0 0 1 1
 C 0  0 0 1 1
